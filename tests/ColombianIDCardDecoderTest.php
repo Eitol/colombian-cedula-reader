@@ -12,7 +12,7 @@ use PHPUnit\Framework\Assert;
  */
 class ColombianIDCardDecoderTest extends TestCase
 {
-    const TEST_DATA_PATH = "test_data";
+    const TEST_DATA_PATH = "testdata";
 
     /**
      * @var string[]

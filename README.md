@@ -39,6 +39,6 @@ The Colombian ID contains a 417 pdf code on the back.
 
 You can use the android app "verifcame" or "pdf417 reader" to check the internal data of the code.
 
-![tests/test_data/best_quality_1.jpg](tests/test_data/best_quality_1.jpg)
+![tests/test_data/best_quality_1.jpg](tests/testdata/best_quality_1.jpg)
 
 
