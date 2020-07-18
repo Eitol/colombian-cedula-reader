@@ -1,5 +1,5 @@
 {
-    "name": "eitol/colombian-cedula-reader.git",
+    "name": "eitol/colombian-cedula-reader",
     "description": "Librería para leer el código PDF417 de las cedulas de ciudadania de Colombia",
     "keywords": [
         "cedula",
