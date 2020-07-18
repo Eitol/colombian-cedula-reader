@@ -12,7 +12,7 @@ Puedes instalar el paquete a través de composer:
 ```json
 {  
     "require": {
-        "eitol/colombian-cedula-reader": "1.0.3"
+        "eitol/colombian-cedula-reader": "master"
     }  
 }
 ```
