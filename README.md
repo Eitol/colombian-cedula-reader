@@ -12,7 +12,7 @@ Puedes instalar el paquete a través de composer:
 ```json
 {  
     "require": {
-        "dsiddharth2/php-zxing": "1.0.3"
+        "eitol/colombian-cedula-reader": "1.0.3"
     }  
 }
 ```
