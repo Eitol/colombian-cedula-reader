@@ -26,8 +26,9 @@ ext-intl
 
 ## Uso
 
-// TODO
 ```php
+require __DIR__.'/vendor/autoload.php';
+
 use Eitol\ColombianCedulaReader\ColombianIDCardDecoder;
 
 // Leemos el archivo que contiene una foto 
@@ -39,6 +40,10 @@ $decoder = new ColombianIDCardDecoder();
 $result = $decoder->decode($file);
 
 ```
+
+resultado 
+
+![doc/result.png](doc/result.png)
 
 ## Colombian PDF417 explanation
 
