@@ -27,12 +27,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Eitol\\ColombianCedulaReader\\": "src"
+            "Eitol\\ColombianCedulaReader\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Eitol\\ColombianCedulaReader\\Tests\\": "tests"
+            "Eitol\\ColombianCedulaReader\\Tests\\": "tests/"
         }
     },
     "scripts": {
