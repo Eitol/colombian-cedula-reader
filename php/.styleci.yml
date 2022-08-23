@@ -1,0 +1,7 @@
+preset: laravel
+
+disabled:
+    - single_class_element_per_statement
+    - hash_to_slash_comment
+    - concat_without_spaces
+    - cast_spaces
