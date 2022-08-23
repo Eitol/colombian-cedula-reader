@@ -79,11 +79,11 @@ def barcode_serial():
             # Se leen los primeros 200 bytes de la lectura
             # En estos primeros 200 bytes se encuentra toda la data que extraeremos
             c = serial_port.read(COLOMBIAN_CEDULA_PDF417_TRUNKED_LEN)
+            print(c)
             frame.extend(c)
-            pub_sdk_mark_idx = c.find(bytes('PubDSK_', 'ascii'))
+            
+            pub_sdk_mark_idx = frame.find(PUB_SDK_MARK)
             if pub_sdk_mark_idx == -1:
-                continue
-            if len(frame) < (pub_sdk_mark_idx - TRUNKED_FRAME_PUB_SDK_MARK_IDX):
                 continue
             if frame[pub_sdk_mark_idx - 10:pub_sdk_mark_idx].count(NULL_BYTE) > 4:
                 frame = frame[pub_sdk_mark_idx - 24:]
