@@ -70,6 +70,7 @@ def barcode_serial():
         print('No se encontró ningún puerto serial')
         print("se tomará el siguiente puerto por defecto: {}".format(DEFAULT_SERIAL_PORT))
         serial_port_path = DEFAULT_SERIAL_PORT
+    print("Iniciando....")
     try:
         serial_port = serial.Serial(serial_port_path, BAUD)
         serial_port.flushInput()

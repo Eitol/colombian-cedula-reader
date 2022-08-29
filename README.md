@@ -2,10 +2,10 @@
 
 Contiene tres componentes:
 
-1- src/pdf417_file_image_reader.py: Permite leer desde el pdf417 de la cédula colombiada desde una imagen y arrojar el
+1- pdf417_file_image_reader.py: Permite leer desde el pdf417 de la cédula colombiada desde una imagen y arrojar el
 resultado parseado en consola
 
-2- src/serial_bar_code_scanner_reader.py: Permite leer el código pdf417 desde un lector manual via USB
+2- serial_bar_code_scanner_reader.py: Permite leer el código pdf417 desde un lector manual via USB
 
 3- php: Librería en PHP para decodificar el PDF417
 
@@ -66,7 +66,7 @@ pip3 install -r ./requirements.txt
 
 ------------------------------------------------------------
 
-### Componente 1: src/pdf417_file_image_reader.py
+### Componente 1: pdf417_file_image_reader.py
 
 #### Lector de cédulas colombianas desde imágenes
 
@@ -79,12 +79,12 @@ Ejemplo:
 ```bash
 export PYTHONPATH=$(pwd)
 export LICENSE_KEY="t0073oQAAALynBFjBO5CA5K81zRzE1LOPirl7hdLvd7Pq6ajKzHF7+TQSBJT0gzoj1bcWY9YeIyBQNrgKeaXYGb/lgljYOVhf+9Mi8Q=="
-python3 src/pdf417_file_image_reader.py ./test/testdata/example.jpeg
+python3 pdf417_file_image_reader.py ./test/testdata/example.jpeg
 ```
 
 #### Salida
 
-Por ejemplo para la siguiente imagen :
+Por ejemplo para la siguiente imagen:
 
 [<img src="./test/testdata/example.jpeg" width="400"/>](test/testdata/test_case_1.png)
 
@@ -114,11 +114,11 @@ Se obtiene una salida como la siguiente:
 // Esta persona no tiene segundo nombre, pero si lo tuviera se mostrara
 ```
 
-2- src/serial_bar_code_scanner_reader.py: Permite leer el código pdf417 desde un lector manual via USB
+2- serial_bar_code_scanner_reader.py: Permite leer el código pdf417 desde un lector manual via USB
 
 ------------------------------------------------------------
 
-### Componente 2: src/serial_bar_code_scanner_reader.py
+### Componente 2: serial_bar_code_scanner_reader.py
 
 Permite leer el codigo de barras de una cedula de identidad colombiana desde un lector de códigos de barra físico (
 ejemplo: Netum L8BL)
@@ -147,7 +147,7 @@ Se utilizó un lector como el siguiente conectado via USB:
 
 ```bash
 export PYTHONPATH=$(pwd)
-python3 ./src/serial_bar_code_scanner_reader.py
+python3 serial_bar_code_scanner_reader.py
 ```
 
 Cuando el lector detecte un PDF417 de cédula que sea válido, entonces debe mostrarlo en consola.
