@@ -9,6 +9,10 @@ resultado parseado en consola
 
 3- php: Librería en PHP para decodificar el PDF417
 
+Si deseas decodificar el PDF417 de la cédula digital, puedes revisar el siquiente repositorio:
+
+https://github.com/Eitol/colombian_cedula_mrz_reader
+
 ## Explicación
 
 La cédula de ciudadanía de Colombia contiene en su posterior un código pdf417, el cual se debe leer en formato binario.
