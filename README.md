@@ -9,7 +9,7 @@ resultado parseado en consola
 
 3- php: Librería en PHP para decodificar el PDF417
 
-Si deseas decodificar el PDF417 de la cédula digital, puedes revisar el siquiente repositorio:
+Si deseas decodificar el MRZ de la cédula digital, puedes revisar el siquiente repositorio:
 
 https://github.com/Eitol/colombian_cedula_mrz_reader
 
